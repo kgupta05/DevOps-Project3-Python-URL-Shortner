@@ -31,7 +31,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
       - name: Run pytest
-        run: pytest tests/
+        run: pytest test/
   docker:
     name: docker Stage
     runs-on: ubuntu-latest
